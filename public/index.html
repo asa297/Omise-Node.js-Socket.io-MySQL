@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>hello</title>
+     <script src="https://cdn.omise.co/omise.js"></script>
+  </head>
+  <body>
+    <h5>hello world</h5>
+
+    <form name="checkoutForm" method="POST" action="http://localhost:5000/checkout/68/1/68/2017-11-22 20:20:20">
+    <input type="hidden" name="description" value="Product order ฿100.25" />
+    <script type="text/javascript" src="https://cdn.omise.co/card.js"
+      data-key="pkey_test_591fmr4ytx1mn7u0beo"
+      data-image="https://image.freepik.com/free-icon/twitter-logo_318-40459.jpg"
+      data-frame-label="Merchant site name"
+      data-button-label="Pay now"
+      data-submit-label="Submit"
+      data-amount="10025"
+      data-currency="thb"
+      >
+    </script>
+    <!--the script will render <input type="hidden" name="omiseToken"> for you automatically-->
+</form>
+
+  </body>
+</html>
